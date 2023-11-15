@@ -1,6 +1,5 @@
-// Navbar.js
 import React from 'react';
-import { Flex, Box, Heading, Spacer, Link, useColorModeValue, Text, IconButton, Image } from '@chakra-ui/react';
+import { Flex, Heading, Link, useColorModeValue, Text } from '@chakra-ui/react';
 import { motion } from 'framer-motion';
 import { FaHome, FaUser, FaCode, FaProjectDiagram, FaCogs, FaEnvelope, FaDownload } from 'react-icons/fa';
 import LogoIcon from './../Logo/Logo'
