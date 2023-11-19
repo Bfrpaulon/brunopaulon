@@ -37,10 +37,8 @@ const Navbar = () => {
 
       <NavLink style={{ display: 'flex', flexDirection: 'column' }} initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1 }} color={linkColor}
       >
-
         <FaDownload />
         <Text ml={2}>Download My CV</Text>
-
       </NavLink>
 
     </Flex>
